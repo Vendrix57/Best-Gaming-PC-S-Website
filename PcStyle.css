@@ -22,7 +22,7 @@ body {
 }
 
 .icon {
-    position: fixed;
+    position: absolute;
     top: 30px;
     left: 35px;
     z-index: 10;
