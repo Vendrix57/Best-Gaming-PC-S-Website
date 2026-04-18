@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%), url(img/LBGO0131.JPG) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    position: fixed;
+    top: 30px;
+    left: 35px;
+    z-index: 10;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    filter: drop-shadow(0 0 8px rgba(255, 140, 0, 0.8));
+}
+
+.icon:hover img {
+    filter: drop-shadow(0 0 15px rgba(255, 140, 0, 1));
+    transform: scale(1.1);
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff8c00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 20px rgba(255, 140, 0, 0.4);
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.subtitle {
+    font-family: "Lucida Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 40px;
+    border: 3px solid #ff8c00;
+    border-radius: 30px;
+    color: #ff8c00;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: #ff8c00;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.6);
+}
+
+.content {
+    margin-top: 30px;
+    padding: 20px;
+    min-height: 320px;
+    max-width: 650px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+}
+
+.content-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.content-text strong {
+    color: #ff8c00;
+}
+
+.content-text br {
+    display: block;
+    content: "";
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #ff8c00;
+    font-weight: 600;
+}
+
+.dealz {
+    font-weight: 700;
+}
+
+.rating-box {
+    margin-top: 25px;
+    padding: 15px;
+    border: 2px solid #3c3c3c;
+    border-radius: 12px;
+    background: rgba(255, 145, 67, 0.9);
+    text-align: center;
+}
+
+.stars {
+    font-size: 24px;
+    color: #f5c518;
+    letter-spacing: 3px;
+    margin: 6px 0;
+}
+
+.rating-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2ecc71;
+}
